@@ -1,5 +1,6 @@
 class BankAccount {
   #balance = 0;
+
   static #totalNumberOfAccounts = 0;
 
   constructor(accountNumber, ownerName) {
@@ -35,6 +36,7 @@ class BankAccount {
 
 class Bank {
   accounts = [];
+
   constructor(name) {
     this.name = name;
   }
@@ -57,7 +59,6 @@ class Bank {
 }
 
 // TEST YOUR CODE HERE
-
 
 // DO NOT REMOVE
 module.exports = { BankAccount, Bank };
