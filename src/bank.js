@@ -54,7 +54,7 @@ class Bank {
   }
 
   findAccount(accountNumber) {
-    return this.accounts.find((account) => account.accountNumber = accountNumber);
+    return this.accounts.find((account) => account.accountNumber === accountNumber);
   }
 }
 
